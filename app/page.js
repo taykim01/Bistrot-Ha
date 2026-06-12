@@ -163,7 +163,7 @@ export default function Home() {
           </nav>
           
           <div className="header-cta">
-            <a href="https://resy.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm" id="nav-book-btn">Book a Table</a>
+            <a href="https://resy.com/cities/new-york-ny/venues/bistrot-ha?rwg_token=AFd1xnECz-lW4iFD3u96rGoyG7MzvM2x1vNfjC39Axo4zTNM6JQATnqwaC1cmHP-mJAFw0oSoy8nzzY0THytdk3smaUheyNJ2hy8wv7V13GirYlq_J7CHF4%3D&date=2026-06-12&seats=2" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm" id="nav-book-btn">Book a Table</a>
           </div>
         </div>
       </header>
@@ -551,7 +551,7 @@ export default function Home() {
                 </div>
                 <h3>Book via Resy</h3>
                 <p className="res-text">Our primary dining tables are released on Resy 14 days in advance at exactly 10:00 AM EST. Due to limited spacing, reservations are highly recommended.</p>
-                <a href="https://resy.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary" id="card-resy-btn">Book on Resy</a>
+                <a href="https://resy.com/cities/new-york-ny/venues/bistrot-ha?rwg_token=AFd1xnECz-lW4iFD3u96rGoyG7MzvM2x1vNfjC39Axo4zTNM6JQATnqwaC1cmHP-mJAFw0oSoy8nzzY0THytdk3smaUheyNJ2hy8wv7V13GirYlq_J7CHF4%3D&date=2026-06-12&seats=2" target="_blank" rel="noopener noreferrer" className="btn btn-primary" id="card-resy-btn">Book on Resy</a>
               </div>
               
               <div className="card-divider-vertical"></div>
@@ -592,7 +592,7 @@ export default function Home() {
                 <div className="info-text">
                   <h3>Address</h3>
                   <p>137 Eldridge Street<br />New York, NY 10002</p>
-                  <a href="https://maps.google.com/?q=137+Eldridge+St,+New+York,+NY+10002" target="_blank" rel="noopener noreferrer" className="text-link">Open in Google Maps</a>
+                  <a href="https://maps.app.goo.gl/VwcpDWYT38VX7Nwg6" target="_blank" rel="noopener noreferrer" className="text-link">Open in Google Maps</a>
                 </div>
               </div>
 
@@ -638,7 +638,7 @@ export default function Home() {
           <h2 className="footer-logo">Bistrot Ha</h2>
           <p className="footer-tagline">French-Vietnamese Bistro | Lower East Side, NYC</p>
           <div className="footer-socials">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/has_dac_biet" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
