@@ -1,6 +1,7 @@
 import { Cormorant_Garamond, Inter } from 'next/font/google';
 import './globals.css';
 import 'leaflet/dist/leaflet.css';
+import Watermark from './components/Watermark';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <body className={`${cormorant.variable} ${inter.variable}`}>
         {children}
+        <Watermark />
       </body>
     </html>
   );

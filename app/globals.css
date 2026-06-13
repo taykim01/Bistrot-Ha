@@ -1306,3 +1306,19 @@ section {
         height: 380px;
     }
 }
+
+/* ----------------------------------------------------
+   13. Watermark Overlay
+---------------------------------------------------- */
+.watermark-grid-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    pointer-events: none;
+    opacity: 0.15;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Cstyle%3E.txt%7Bfont-family:'Inter',system-ui,sans-serif;font-weight:800;font-size:12px;letter-spacing:2px;fill:%23d4af37;%7D%3C/style%3E%3Ctext x='100' y='80' transform='rotate(-25 100 80)' text-anchor='middle' class='txt'%3EUnlicensed Preview%3C/text%3E%3Ctext x='300' y='200' transform='rotate(-25 300 200)' text-anchor='middle' class='txt'%3EUnlicensed Preview%3C/text%3E%3C/svg%3E");
+    background-repeat: repeat;
+}
